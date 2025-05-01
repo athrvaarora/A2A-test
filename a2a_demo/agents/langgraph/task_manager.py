@@ -68,7 +68,7 @@ class LangGraphTaskManager(InMemoryTaskManager):
                 None
             )
             
-            # Process with the agent
+            # Process with the agent - run synchronously
             agent_response = self.agent.invoke(query, task_send_params.sessionId)
             
             # Update task with agent's response

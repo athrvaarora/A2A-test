@@ -1,0 +1,6 @@
+Collecting python-dotenv
+  Obtaining dependency information for python-dotenv from https://files.pythonhosted.org/packages/1e/18/98a99ad95133c6a6e2005fe89faedf294a748bd5dc803008059409ac9b1e/python_dotenv-1.1.0-py3-none-any.whl.metadata
+  Downloading python_dotenv-1.1.0-py3-none-any.whl.metadata (24 kB)
+Downloading python_dotenv-1.1.0-py3-none-any.whl (20 kB)
+Installing collected packages: python-dotenv
+Successfully installed python-dotenv-1.1.0

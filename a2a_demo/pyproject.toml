@@ -12,23 +12,25 @@ description = "A2A Protocol Demo with Multiple Agents"
 requires-python = ">=3.10"
 dependencies = [
     "langchain>=0.1.0",
-    "numpy<1.26.0,>=1.22.0",
+    "numpy>=1.26.4",
     "langchain-google-genai>=0.0.5",
-    "langgraph>=0.0.20",
+    "langgraph>=0.0.51",  # Updated to a newer version with create_react_agent
     "crewai>=0.11.2",
     "httpx>=0.24.1",
     "httpx-sse>=0.3.1",
-    "fastapi>=0.103.1",
+    "fastapi>=0.115.0,<0.116.0",
     "uvicorn>=0.23.2",
-    "starlette>=0.27.0",
+    "starlette>=0.40.0,<0.47.0",
     "pydantic>=2.0.0",
     "python-dotenv>=1.0.0",
-    "sse-starlette>=1.6.5"
+    "sse-starlette>=1.6.5",
+    "setuptools>=61.0"  # Added to provide pkg_resources
 ]
 
 [project.optional-dependencies]
 dev = [
     "pytest>=7.0.0",
-] 
+]
+
 [tool.setuptools]
 packages = ["agents", "common", "chat_ui"]
